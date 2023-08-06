@@ -1,0 +1,9 @@
+{
+    "name": "fire-starter",
+    "version": "1.0.0",
+    "title": "Fire Starter",
+    "author": "Krei_",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "Early game deforestation. \nBurn those trees with the use of our patented leading-edge Flint and Steel™ technology."
+  }
