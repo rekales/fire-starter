@@ -15,11 +15,12 @@ local fire_starter_recipe = {
     type = "recipe",
     name = "fire-starter-pack",
     enabled = false,
-    ingredients ={
-        {"stone", 2},
-        {"iron-plate", 2}
+    auto_recycle = false,
+    ingredients = {
+        {type = "item", name = "stone", amount = 2},
+        {type = "item", name = "iron-plate", amount = 2},
     },
-    result = "fire-starter-pack"
+    results = {{type = "item", name = "fire-starter-pack", amount = 2}}
 }
 
 local fire_starter_tech = {
